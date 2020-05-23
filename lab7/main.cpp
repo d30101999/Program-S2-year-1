@@ -12,7 +12,7 @@ int main() {
     Buffer.push_back(8);
     Buffer.push_top(9);
     Buffer.push_top(10);
-    ///Buffer[0] = 150;
+    
     std::cout << "CircularBuffer with Capacity = 10" << std::endl;
 
     for (int i : Buffer) {
